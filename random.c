@@ -1,5 +1,6 @@
-char randchar(){
-    char a = 1;
+#include <stdlib.h>
 
-    return a;
+char randchar(){
+    char r = 'A' + (random() % 26);
+    return r;
 }
